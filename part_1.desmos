@@ -1,0 +1,136 @@
+{
+  "version": 11,
+  "randomSeed": "90f426fe8bacb2c1e66595045f05e393",
+  "graph": {
+    "viewport": {
+      "xmin": -7.165983574604961,
+      "ymin": -7.066068156318463,
+      "zmin": -7.135288683422601,
+      "xmax": 7.191711011033147,
+      "ymax": 7.291626429319645,
+      "zmax": 7.222405902215506
+    },
+    "worldRotation3D": [
+      -0.9436732667830681,
+      0.14049756674203337,
+      -0.2995683549684475,
+      -0.13391206839843542,
+      -0.990081023825587,
+      -0.04251028343453647,
+      -0.30256953497697353,
+      -2.3731770468659812e-15,
+      0.9531273139007984
+    ],
+    "axis3D": [
+      0,
+      0,
+      1.000000000007143
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-7.165983574604961",
+      "xmax": "7.191711011033147",
+      "ymin": "-7.066068156318463",
+      "ymax": "7.291626429319645",
+      "zmin": "-7.135288683422601",
+      "zmax": "7.222405902215506"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "8",
+        "title": "Points"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "folderId": "8",
+        "color": "#c74440",
+        "latex": "\\left(0,\\ 0,\\ 15\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "folderId": "8",
+        "color": "#2d70b3",
+        "latex": "\\left(10,\\ 10,\\ 10\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "color": "#388c46",
+        "latex": "\\left(10+\\cos\\left(v\\right),\\ 10+\\sin\\left(v\\right),\\ 10+\\sin\\left(v\\right)\\right)",
+        "parametricDomain3Dv": {
+          "min": "-\\frac{\\pi}{2}",
+          "max": "0"
+        }
+      },
+      {
+        "type": "folder",
+        "id": "19",
+        "title": "Gabriel's section",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "folderId": "19",
+        "color": "#c74440",
+        "latex": "\\left(0,0,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "19",
+        "color": "#2d70b3",
+        "latex": "\\left(1,5,1\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "folderId": "19",
+        "color": "#2d70b3",
+        "latex": "\\left(1,1,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "folderId": "19",
+        "color": "#2d70b3",
+        "latex": "\\left(-\\cos v,\\ 1-\\sin v,0\\right)",
+        "parametricDomain3Dv": {
+          "min": "0",
+          "max": "\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "folderId": "19",
+        "color": "#388c46",
+        "latex": "\\left(1.01^{t}\\cos t,\\ 1.01^{t}\\sin t+5,1.03^{t}\\right)",
+        "parametricDomain": {
+          "min": "",
+          "max": "10\\pi"
+        },
+        "domain": {
+          "min": "0",
+          "max": "10\\pi"
+        }
+      },
+      {
+        "type": "folder",
+        "id": "16",
+        "title": "Harry's section"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true,
+  "_calculatorType": "Calculator3D"
+}
